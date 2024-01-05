@@ -21,13 +21,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="first-page">
-        <svg
-          class="meet"
-          width="119"
-          height="28"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+      <header class="meet">
+        <svg width="119" height="28" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <g>
               <circle fill="#4D96A9" cx="7" cy="21" r="7" />
@@ -40,29 +35,46 @@
             />
           </g>
         </svg>
+      </header>
+      <div class="first-page">
         <img
           class="hero-image"
           alt="hero images"
           src="./assets/tablet/image-hero.png"
         />
-        <h1 class="firstPage-header">Group Chat for Everyone</h1>
-        <p class="discription-apps">
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
+        <div class="group1">
+          <img
+            src="./assets/desktop/image-hero-left.png"
+            alt="image of peopel"
+          />
+        </div>
+
+        <div class="first-page-gap">
+          <h1 class="firstPage-header">Group Chat for Everyone</h1>
+          <p class="discription-apps">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="btns-div">
+            <button class="download-btn">
+              <div class="down-btn-content">
+                <h3 class="down-btn">Download</h3>
+                <span class="span-btn">v1.3</span>
+              </div>
+            </button>
+            <button class="question-btn">
+              <h3 class="queastion-btn-text">What is it?</h3>
+            </button>
+          </div>
+        </div>
+        <div class="group2">
+          <img
+            src="./assets/desktop/image-hero-right.png"
+            alt="image of people"
+          />
+        </div>
       </div>
       <div class="second-page">
-        <div class="btns-div">
-          <button class="download-btn">
-            <div class="down-btn-content">
-              <h3 class="down-btn">Download</h3>
-              <span class="span-btn">v1.3</span>
-            </div>
-          </button>
-          <button class="question-btn">
-            <h3 class="queastion-btn-text">What is it?</h3>
-          </button>
-        </div>
         <div class="svg-div-one">
           <svg
             width="1"
@@ -145,12 +157,14 @@
               Stay connected with reliable HD meetings and unlimited one-on-one
               and group video sessions.
             </p>
-            <button class="download-btn footer-btn">
-              <div class="down-btn-content">
-                <h3 class="down-btn">Download</h3>
-                <span class="span-btn footer-span">v1.3</span>
-              </div>
-            </button>
+            <div class="footer-btn">
+              <button class="download-btn footer-btn">
+                <div class="down-btn-content">
+                  <h3 class="down-btn">Download</h3>
+                  <span class="span-btn footer-span">v1.3</span>
+                </div>
+              </button>
+            </div>
           </div>
         </footer>
       </div>

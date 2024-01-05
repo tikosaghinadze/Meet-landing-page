@@ -18,6 +18,11 @@ body {
 /***************************/
 /*FIRST PAGE*/
 /***************************/
+.meet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .svgcolor path {
   fill: black;
 }
@@ -256,4 +261,135 @@ body {
 }
 .footer-span {
   color: #d9b8ff;
+}
+/***********************/
+/*UPDATE*/
+/*********************/
+.group1 {
+  display: none;
+}
+.group2 {
+  display: none;
+}
+.meet {
+  margin-top: 80px;
+}
+.first-page-gap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .firstPage-header {
+    width: 332px;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .discription-apps {
+    width: 457px;
+  }
+  .btns-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .hero-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 24px;
+    width: 100%;
+    gap: 24px;
+  }
+  .man-pics {
+    margin-top: 0;
+  }
+  .feature-app {
+    width: 587px;
+  }
+  .highlight-text {
+    width: 445px;
+  }
+  .footer-title {
+    width: 457px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .footer-p {
+    width: 573px;
+  }
+  .svg-div-two {
+    right: 348px;
+  }
+  .group1 {
+    display: none;
+  }
+  .group2 {
+    display: none;
+  }
+  .first-page-gap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 80px;
+  }
+  .meet {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+  .hero-image {
+    display: none;
+  }
+  .first-page {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .meet {
+    margin-top: 80px;
+  }
+  .first-page-gap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+  .group1 {
+    display: block;
+  }
+  .group2 {
+    display: block;
+  }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-btn {
+    margin: auto 0;
+  }
+  .svg-div-two {
+    left: 359px;
+  }
+  .feature-app {
+    width: 467px;
+  }
+  .highlight-text {
+    width: 445px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }
