@@ -8,12 +8,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 .container {
   display: flex;
   flex-direction: column;
   background: #fafafa;
-  width: 375px;
+  width: 100vw;
 }
 /***************************/
 /*FIRST PAGE*/
@@ -215,17 +216,10 @@ body {
   text-align: center;
   padding: 90px 70px;
   gap: 24px;
-}
-.footer-part:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
+  background-blend-mode: soft-light;
   background-color: #4d96a9;
 }
+
 .svg-div-two {
   display: flex;
   justify-content: center;
@@ -234,7 +228,8 @@ body {
   margin: 80px auto 50px;
   position: absolute;
   top: -189px;
-  right: 170px;
+  right: 50%;
+  transform: translateX(50%);
 }
 .footer-title {
   width: 327px;
@@ -282,9 +277,6 @@ body {
   gap: 24px;
 }
 @media (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
   .firstPage-header {
     width: 332px;
     font-size: 48px;
@@ -326,9 +318,7 @@ body {
   .footer-p {
     width: 573px;
   }
-  .svg-div-two {
-    right: 348px;
-  }
+
   .group1 {
     display: none;
   }
@@ -348,9 +338,6 @@ body {
   }
 }
 @media (min-width: 1440px) {
-  .container {
-    width: 1440px;
-  }
   .hero-image {
     display: none;
   }
@@ -381,9 +368,7 @@ body {
   .footer-btn {
     margin: auto 0;
   }
-  .svg-div-two {
-    left: 359px;
-  }
+
   .feature-app {
     width: 467px;
   }
